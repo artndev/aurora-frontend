@@ -2,7 +2,6 @@
   "name": "client",
   "version": "0.1.0",
   "homepage": "https://artndev.github.io/aurora-frontend",
-  "proxy": "http://localhost:5000",
   "private": true,
   "dependencies": {
     "@fvilers/disable-react-devtools": "^1.3.0",
