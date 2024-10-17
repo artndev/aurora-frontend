@@ -1,0 +1,50 @@
+@import "./_vars.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Serif", serif;
+    color: $red;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    margin-bottom: 50px;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    max-height: max-content;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    background: $blue;
+}
+
+.center {
+    justify-content: center;
+}
+
+/* .upper__line {
+    position: relative;
+
+    &::before
+    {
+        content: '';
+        position: absolute;
+        display: inline-block;
+        width: 100%;
+        top: 10%;
+        height: 3px;
+        background: $red;
+        border-radius: 3px;
+    }
+} */

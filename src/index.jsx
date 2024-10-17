@@ -1,0 +1,17 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './scss/index.scss';
+import App from './App';
+import { disableReactDevTools } from "@fvilers/disable-react-devtools"
+import axios from 'axios';
+axios.defaults.baseURL = "http://technotes-api.onrender.com/"
+
+if (process.env.NODE_ENV === "production")
+  disableReactDevTools()
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
