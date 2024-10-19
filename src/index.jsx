@@ -4,7 +4,7 @@ import './scss/index.scss';
 import App from './App';
 import { disableReactDevTools } from "@fvilers/disable-react-devtools"
 import axios from 'axios';
-axios.defaults.baseURL = "http://technotes-api.onrender.com/"
+axios.defaults.baseURL = "https://aurora-backend.vercel.app/"
 
 if (process.env.NODE_ENV === "production")
   disableReactDevTools()
