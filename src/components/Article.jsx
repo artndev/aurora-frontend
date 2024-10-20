@@ -30,10 +30,7 @@ function Article() {
 
   useEffect(() => {
     if (data)
-    {
       setLoaded(true)
-      console.log(JSON.parse(data.contents)[params.art.replaceAll("%20", "")])
-    }
   }, [data])
 
   return <>
