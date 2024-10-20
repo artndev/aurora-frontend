@@ -1,8 +1,8 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Home from './contexts/Home';
-import Subject from './contexts/Subject';
-import Article from './contexts/Article';
+import Home from './components/Home.jsx';
+import Subject from './components/Subject';
+import Article from './components/Article';
 
 export default function App() 
 {
