@@ -1,6 +1,8 @@
+@import "./_vars.scss";
+
 .contents {
     width: 80%;
-    word-wrap: break-word;
+    line-height: 1.8em;
 }
 
 .contents img {
@@ -11,3 +13,4 @@
 .contents code {
     color: white;
 }
+
